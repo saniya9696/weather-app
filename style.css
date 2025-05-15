@@ -194,85 +194,8 @@ body {
     }
 }
 
-@media (max-width: 360px) {
-    .weather h1 {
-        font-size: 40px;
-    }
-
-    .weather h2 {
-        font-size: 24px;
-    }
-
-    .weather-icon {
-        font-size: 80px;
-    }
-
-    .search input, .search button {
-        font-size: 14px;
-        height: 45px;
-    }
-}
 
 
-
-/* Add these to your existing CSS */
-
-/* Better mobile tap targets */
-.search input, .search button {
-    min-height: 48px; /* Recommended minimum touch target */
-    -webkit-tap-highlight-color: transparent; /* Remove tap highlight */
-}
-
-/* Prevent font scaling issues */
-html {
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
-}
-
-/* Better mobile layout */
-@media (max-width: 768px) {
-    .card {
-        margin: 20px auto 0;
-        padding: 25px 15px;
-        width: 95%;
-    }
-    
-    .weather-icon {
-        margin-top: 15px;
-        font-size: 80px;
-    }
-    
-    .weather h1 {
-        font-size: 60px;
-    }
-    
-    .weather h2 {
-        font-size: 32px;
-    }
-}
-
-/* Add this for very small screens */
-@media (max-width: 360px) {
-    .weather h1 {
-        font-size: 48px;
-    }
-    
-    .weather h2 {
-        font-size: 26px;
-    }
-    
-    .weather-icon {
-        font-size: 70px;
-    }
-    
-    .col i {
-        font-size: 22px;
-    }
-    
-    .humidity, .wind {
-        font-size: 18px;
-    }
-}
 
 /* Add this for input focus on mobile */
 .search input:focus {
